@@ -13,14 +13,14 @@
 #define BULLET_SIZE (10)			//弾の大きさ
 #define MAX_BULLET (256)			//弾の上限
 #define MAX_BULLET_TYPE (2)			//弾の種類
-#define PLAYER_BULLET (1)
-#define ENEMY_BULLET (0)
+#define PLAYER_BULLET (1)			//プレイヤーの弾のテクスチャ
+#define ENEMY_BULLET (0)			//敵の弾のテクスチャ
 //弾の状態
 typedef enum
 {
-	BULLETTYPE_PLAYER = 0,
-	BULLETTYPE_ENEMY,
-	BULLETTYPE_MACHINE,
+	BULLETTYPE_PLAYER = 0,	//プレイヤーの弾
+	BULLETTYPE_ENEMY,		//敵の弾
+	BULLETTYPE_MACHINE,		//子機の弾
 	BULLETTYPE_MAX,
 }BULLETTYPE;
 

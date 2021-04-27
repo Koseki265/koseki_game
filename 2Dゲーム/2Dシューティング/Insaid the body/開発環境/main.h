@@ -47,7 +47,6 @@ typedef enum
 	MODE_MAX
 }MODE;
 
-//グローバル変数
 
 //プロトタイプ宣言
 LPDIRECT3DDEVICE9 GetDevice(void);

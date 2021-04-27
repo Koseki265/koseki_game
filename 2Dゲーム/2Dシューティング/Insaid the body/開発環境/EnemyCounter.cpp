@@ -46,7 +46,7 @@ HRESULT InitEnemyCounter(void)
 	for (int nCntEnemyCounter = 0; nCntEnemyCounter < MAX_COUNTER; nCntEnemyCounter++, pVtx += 4)
 	{
 		//ポリゴンの位置
-		g_aEnemyCounter[nCntEnemyCounter].pos = D3DXVECTOR3(COUNTER_SIZEX + 50 + nCntEnemyCounter * 50, 50.0f, 0.0f);
+		g_aEnemyCounter[nCntEnemyCounter].pos = (int) D3DXVECTOR3(COUNTER_SIZEX + 50 + nCntEnemyCounter * 50, 50.0f, 0.0f);
 
 		//頂点座標
 		pVtx[0].pos = D3DXVECTOR3(g_aEnemyCounter[nCntEnemyCounter].pos.x - COUNTER_SIZEX, g_aEnemyCounter[nCntEnemyCounter].pos.y + COUNTER_SIZEY, 0.0f);

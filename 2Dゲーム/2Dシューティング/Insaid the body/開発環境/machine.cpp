@@ -283,7 +283,7 @@ void SetPosMachine(int nIdx, D3DXVECTOR3 pos)
 //-----------------------------------------------------------------------------
 void SetBulletMachine(int nIdx)
 {
-	SetBullet(g_aMachine[nIdx].pos, D3DXVECTOR3(0.0f, -11.5f, 0.0f), PLAYER_BULLET , BULLETTYPE_MACHINE);
+	SetBullet(g_aMachine[nIdx].pos, D3DXVECTOR3(0.0f, -11.5f, 0.0f), BULLETTYPE_MACHINE , BULLETTYPE_MACHINE);
 }
 
 MACHINE *GetMachine(void)

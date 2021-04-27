@@ -210,7 +210,7 @@ void UpdateEnemy(void)
 			{
 				if ((g_Bulletfiring % 120) == 0)
 				{
-					SetBullet(pEnemy->pos, D3DXVECTOR3(0.0f, 8.24f, 0.0f), ENEMY_BULLET, BULLETTYPE_ENEMY);
+					SetBullet(pEnemy->pos, D3DXVECTOR3(0.0f, 8.24f, 0.0f), ENEMY_BULLET,BULLETTYPE_ENEMY);
 				}
 			}
 
@@ -218,7 +218,7 @@ void UpdateEnemy(void)
 			{
 				if ((g_Bulletfiring % 180) == 0)
 				{
-					SetBullet(pEnemy->pos, D3DXVECTOR3(0.0f, 8.24f, 0.0f), ENEMY_BULLET, BULLETTYPE_ENEMY);
+					SetBullet(pEnemy->pos, D3DXVECTOR3(0.0f, 8.24f, 0.0f), ENEMY_BULLET,BULLETTYPE_ENEMY);
 				}
 			}
 

@@ -361,7 +361,7 @@ void SetBullet(D3DXVECTOR3 pos, D3DXVECTOR3 move, int nType, BULLETTYPE Type)
 
 			pBullet->Type = Type;
 
-			//寿命
+			//テクスチャの種類
 			pBullet->nType = nType;
 
 			pBullet->bUse = true;

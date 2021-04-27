@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------------------
 //
-// ダイレクトｘの処理
+// プレイヤーの処理
 //Author:KosekiYuto
 //
 //-----------------------------------------------------------------------------
@@ -232,7 +232,7 @@ void UpdatePlayer(void)
 		//弾の発射
 		if (GetKeyboardTrigger(DIK_SPACE) == true)
 		{
-			SetBullet(D3DXVECTOR3(g_Player.pos.x, g_Player.pos.y, g_Player.pos.z), D3DXVECTOR3(0.0f, -11.5f, 0.0f), PLAYER_BULLET, BULLETTYPE_PLAYER);
+			SetBullet(D3DXVECTOR3(g_Player.pos.x, g_Player.pos.y, g_Player.pos.z), D3DXVECTOR3(0.0f, -11.5f, 0.0f), BULLETTYPE_PLAYER, BULLETTYPE_PLAYER);
 			PlaySound(SOUND_LABEL_SE_SHOT);
 		}
 
@@ -243,7 +243,7 @@ void UpdatePlayer(void)
 		//弾の発射
 		if (GetKeyboardTrigger(DIK_SPACE) == true)
 		{
-			SetBullet(D3DXVECTOR3(g_Player.pos.x , g_Player.pos.y, g_Player.pos.z), D3DXVECTOR3(0.0f, -11.5f, 0.0f), PLAYER_BULLET, BULLETTYPE_PLAYER);
+			SetBullet(D3DXVECTOR3(g_Player.pos.x , g_Player.pos.y, g_Player.pos.z), D3DXVECTOR3(0.0f, -11.5f, 0.0f), BULLETTYPE_PLAYER, BULLETTYPE_PLAYER);
 
 			PlaySound(SOUND_LABEL_SE_SHOT);
 			for (int nCount = 0; nCount < 2; nCount++)
