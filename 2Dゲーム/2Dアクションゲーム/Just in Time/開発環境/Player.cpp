@@ -452,7 +452,7 @@ void UpdatePlayer(void)
 		AddScore(-200);
 	}
 
-	//テクスチャ座標
+	//テクスチャ座標更新
 	pVtx[0].tex = D3DXVECTOR2(0.0f + (g_nPatternAnimU * 0.25f), 0.5f + (g_nPatternAnimV * 0.5f));
 	pVtx[1].tex = D3DXVECTOR2(0.0f + (g_nPatternAnimU * 0.25f), 0.0f + (g_nPatternAnimV * 0.5f));
 	pVtx[2].tex = D3DXVECTOR2(0.25f + (g_nPatternAnimU * 0.25f), 0.5f + (g_nPatternAnimV * 0.5f));
